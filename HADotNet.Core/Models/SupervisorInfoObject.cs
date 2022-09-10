@@ -18,7 +18,7 @@ namespace HADotNet.Core.Models
         /// Gets or sets the addons repositories.
         /// </summary>
         [JsonProperty("addons_repositories")]
-        public IList<string> AddonsRepositories { get; set; }
+        public IList<RepositoryObject> AddonsRepositories { get; set; }
 
         /// <summary>
         /// Gets or sets the processor architecture.
